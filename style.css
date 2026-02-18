@@ -1,22 +1,28 @@
+#poh {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
 #poh a {
+    display: flex;
+    justify-content: space-between;
     font-family: "Courier New", monospace;
     transition: all 0.3s ease;
+    text-decoration: none;
 }
-
 #poh a:hover {
     text-shadow: 0 0 10px #8A9A5B,
                  0 0 20px #8A9A5B;
     transform: translateY(-2px);
-}
-
-#poh a {
-    text-decoration: none;
 }
 /*-----*/
 .header-h { height: 120px; }
 .content-mt { margin-top: 140px; }
 /*-----*/
 #header-img{
-  height:auto;
-  width:200px;
+    height: 40px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
 }
