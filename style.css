@@ -1,0 +1,18 @@
+#poh a {
+    font-family: "Courier New", monospace;
+    transition: all 0.3s ease;
+}
+
+#poh a:hover {
+    text-shadow: 0 0 10px #8A9A5B,
+                 0 0 20px #ff00ff;
+    transform: translateY(-2px);
+}
+
+#poh a {
+    text-decoration: none;
+}
+/*-----*/
+.header-h { height: 120px; }
+.content-mt { margin-top: 140px; }
+/*-----*/
