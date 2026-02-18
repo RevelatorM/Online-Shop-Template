@@ -5,7 +5,7 @@
 
 #poh a:hover {
     text-shadow: 0 0 10px #8A9A5B,
-                 0 0 20px #ff00ff;
+                 0 0 20px #8A9A5B;
     transform: translateY(-2px);
 }
 
@@ -16,3 +16,7 @@
 .header-h { height: 120px; }
 .content-mt { margin-top: 140px; }
 /*-----*/
+#header-img{
+  height:auto;
+  width:200px;
+}
