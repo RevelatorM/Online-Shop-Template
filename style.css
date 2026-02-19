@@ -27,3 +27,18 @@
     max-width: 200px;
     object-fit: contain;
 }
+/*-----*/
+.cards{
+display: flex;
+justify-content: space-between;
+font-family: "Courier New", monospace;
+
+}
+
+.cards img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/*-----*/
