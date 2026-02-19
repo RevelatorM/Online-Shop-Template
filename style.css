@@ -21,11 +21,18 @@
 .header-h { height: 120px; }
 .content-mt { margin-top: 140px; }
 /*-----*/
-#header-img{
-    height: 40px;
-    width: auto;
-    max-width: 200px;
-    object-fit: contain;
+#header-img {
+  height: 40px;
+  width: auto;
+  max-width: 200px;
+  object-fit: contain;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#header-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px black;
+  cursor: pointer;
 }
 /*-----*/
 .cards{
