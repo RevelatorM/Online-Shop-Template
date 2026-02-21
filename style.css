@@ -32,9 +32,11 @@
 }
 #btn-search{
     border-radius: 25px;
+    border-style: none;
 }
 #searchbar{
     border-radius: 25px;
+    border-style: none;
 }
 /*-----*/
 .header-h { height: 120px; }
