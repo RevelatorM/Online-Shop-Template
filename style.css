@@ -30,6 +30,12 @@
     font-family: "Courier New", monospace;
     padding: 2px 10px;
 }
+#btn-search{
+    border-radius: 25px;
+}
+#searchbar{
+    border-radius: 25px;
+}
 /*-----*/
 .header-h { height: 120px; }
 .content-mt { margin-top: 140px; }
