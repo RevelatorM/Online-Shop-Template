@@ -56,6 +56,14 @@
   cursor: pointer;
 }
 /*-----*/
+:root{color-scheme: light;}
+:root:has(input:checked){
+color-scheme:dark;
+}
+body{
+background-color: light-dark(#e8e8e8,#212121);
+}
+/*-----*/
 .cards{
 display: flex;
 justify-content: space-between;
